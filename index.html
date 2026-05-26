@@ -1,1 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Roho AI</title>
 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="background"></div>
+
+<div class="app">
+
+  <div class="header">
+    <h1>Roho AI</h1>
+    <p>Your Emotional AI Companion</p>
+  </div>
+
+  <div class="emotion-box" id="emotion">
+    Emotion: Neutral 😐
+  </div>
+
+  <div class="chat-box" id="chat-box">
+
+    <div class="message ai">
+      Hello 👋 I am Roho AI. How are you feeling today?
+    </div>
+
+  </div>
+
+  <div class="typing" id="typing">
+    Roho AI is typing...
+  </div>
+
+  <div class="input-area">
+    <input
+      type="text"
+      id="input"
+      placeholder="Talk to Roho AI..."
+    />
+
+    <button onclick="sendMessage()">
+      Send
+    </button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
